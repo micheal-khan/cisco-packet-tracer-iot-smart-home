@@ -1,28 +1,38 @@
 # Cisco Packet Tracer – IoT Smart Home & Water Level Monitoring
 
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue)
+![IoT](https://img.shields.io/badge/IoT-Simulation-green)
+![Networking](https://img.shields.io/badge/Networking-Cisco-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+## Project Topology
+![IoT Smart Home Topology](screenshots/1.png)
+
 ## Overview
 A complete IoT-based smart home simulation built in Cisco Packet Tracer, integrating
-environment monitoring, security systems, automation, and water level monitoring.
+monitoring, automation, security, and networking in a single system.
 
 ## Key Features
-- Water level monitoring using sensor + MCU + LCD
+- Water level monitoring using **Water Sensor + MCU + LCD**
 - Lawn sprinkler monitoring logic
 - Temperature and humidity sensing
-- Motion detection and intrusion alarm system
-- CO detection for safety
-- Smart doors, windows, lighting, fan, and speakers
+- Motion detection with alarm & siren
+- Carbon monoxide detection
+- Smart doors, windows, lights, fan, speaker
 - Webcam-based monitoring
-- Wind turbine and battery integration
+- Wind turbine with battery storage
 - Centralized IoT control via Wireless Home Router
-- Remote monitoring using PC and IoT Server
+- Remote monitoring using PC & IoT Server
 
 ## Architecture
-Sensors → MCU → Display / Actuators → Wireless Router → Switch → Server → Remote User
+Sensors → MCU → LCD / Actuators → Wireless Router → Switch → Server → Remote User
 
 ## Tools Used
 - Cisco Packet Tracer
-- IoT Devices (Sensors, MCU, LCD)
+- IoT Sensors & Actuators
+- MCU + Embedded Logic
 - Networking Devices (Router, Switch, Server)
 
 ## Purpose
-Hands-on exploration of real-world IoT system design, networking, and automation.
+Hands-on exploration of **end-to-end IoT system design**, not a guided lab.
